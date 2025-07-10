@@ -1,7 +1,7 @@
 #
 # Downloads the HG004 paired reads FROM the meta data file. Seperating each run into its own directory.
 #
-# Usage: bash download_paired_reads_metadata.sh /path/to/directory/with/metadata
+# Usage: bash download_all_HG004_paired_reads.sh /path/to/directory/with/metadata
 
 set -e
 
