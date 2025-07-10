@@ -1,3 +1,3 @@
 patient,sample,lane,fastq1,fastq2
-HG004,4A1,L001,/home/amrinder/Documents/Github/variant-calling/reads/4A1_CGATGT_L001_R1_001.fastq.gz,/home/amrinder/Documents/Github/variant-calling/reads/4A1_CGATGT_L001_R2_001.fastq.gz
-HG004,4A1,L002,/home/amrinder/Documents/Github/variant-calling/reads/4A1_CGATGT_L002_R1_001.fastq.gz,/home/amrinder/Documents/Github/variant-calling/reads/4A1_CGATGT_L002_R2_001.fastq.gz
+HG004,4A1,L001,/home/amrinder/Documents/Github/variant-calling/reads_data/reads/4A1_CGATGT_L001_R1_001.fastq.gz,/home/amrinder/Documents/Github/variant-calling/reads_data/reads/4A1_CGATGT_L001_R2_001.fastq.gz
+HG004,4A1,L002,/home/amrinder/Documents/Github/variant-calling/reads_data/reads/4A1_CGATGT_L002_R1_001.fastq.gz,/home/amrinder/Documents/Github/variant-calling/reads_data/reads/4A1_CGATGT_L002_R2_001.fastq.gz

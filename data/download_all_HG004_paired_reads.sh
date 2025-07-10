@@ -13,7 +13,8 @@ fi
 PREFIX="ftp://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/data/AshkenazimTrio/HG004_NA24143_mother/NIST_HiSeq_HG004_Homogeneity-14572558/HG004_HiSeq300x_fastq/"
 
 METADATA_FILE="$1"
-DOWNLOAD_DIR="$(dirname "${METADATA_FILE}")"
+METADATA_DIR="$(dirname "${METADATA_FILE}")"
+DOWNLOAD_DIR="${METADATA_DIR}/reads"
 
 tail -n +2 "${METADATA_FILE}" | while IFS=$'\t' read -r fastq1 md5_1 fastq2 md5_2 sample_name; do
 

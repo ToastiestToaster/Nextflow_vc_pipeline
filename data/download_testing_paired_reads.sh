@@ -14,6 +14,7 @@ PREFIX="ftp://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/data/AshkenazimTr
 
 METADATA_FILE="$1"
 DOWNLOAD_DIR="$(dirname "${METADATA_FILE}")"
+ROOT_DIR="${DOWNLOAD_DIR}/reads"
 
 READ1_L1="ftp://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/data/AshkenazimTrio/HG004_NA24143_mother/NIST_HiSeq_HG004_Homogeneity-14572558/HG004_HiSeq300x_fastq/140818_D00360_0046_AHA5R5ADXX/Project_RM8392/Sample_4A1/4A1_CGATGT_L001_R1_001.fastq.gz"
 READ2_L1="ftp://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/data/AshkenazimTrio/HG004_NA24143_mother/NIST_HiSeq_HG004_Homogeneity-14572558/HG004_HiSeq300x_fastq/140818_D00360_0046_AHA5R5ADXX/Project_RM8392/Sample_4A1/4A1_CGATGT_L001_R2_001.fastq.gz"
